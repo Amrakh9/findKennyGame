@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         
         findkenny()
         }
-
+//
         func findkenny(){
             currenttScore = 0
             timerCounter.text = "Time: \(counter)"
