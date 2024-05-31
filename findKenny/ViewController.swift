@@ -86,7 +86,7 @@ class ViewController: UIViewController {
     func saveScores() {
         UserDefaults.standard.set(highestScoreCounter, forKey: "highestScores")
     }
-    //Alert
+    //Alert Controller
     @objc func alertPopUp(){
         let alert = UIAlertController(title: "Finished", message: "Your score is: \(currenttScore)", preferredStyle: UIAlertController.Style.alert)
         let okButton = UIAlertAction(title: "OK", style: UIAlertAction.Style.cancel)
